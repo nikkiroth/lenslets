@@ -1,0 +1,66 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.googleapis.com",
+  "@type": "ARArtifact",
+  "arTarget": {
+    "@type": "ARImageTarget",
+    "name" : "Coffee Chat",
+    "description" : "Leah Rosenberg & Carissa Potter",
+    "image": "https://nikkiroth.github.io/lenslets/coffeechat.jpg"
+  },
+  "arPlacement": {
+    "@type": "ARPlanarReplacement",
+    "scaleMode": "ScaleModeFill"
+  },
+  "arContent": {
+    "@type": "ARNode",
+    "name": "A Google Artist in Residence Experience",
+    "embedUrl": "https://www.youtube.com/embed/sn--0dHiO54",
+    "image": "https://nikkiroth.github.io/lenslets/heroimage.jpg",
+    "url": "https://blog.bluebottlecoffee.com/posts/carissa-potter-leah-rosenberg",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Google Artist in Residence",
+      "logo": "https://nikkiroth.github.io/lenslets/googleairlogo.png"
+    }
+    // arInitialAxisOrientation indicates whether the plane is vertical (ARAxisInherit)
+    // or horizontal (ARYAxisNormal). (The default is ARAxisInherit.)
+    "arInitialAxisOrientation": "ARAxisInherit OR ARYAxisNormal",
+
+    // translate3d is optional.
+    "translate3d": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+
+    // rotate3d is optional.
+    "rotate3d": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0
+    },
+
+    // scale3d is optional.
+    "scale3D": 1,
+
+    "associatedMedia": {
+      "@type": "3DModel",
+      "name": "Model Title",
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://storage.googleapis.com/ia-testing/Review/bug_testing/070120_09-28/morpho/morpho.glb",
+        "encodingFormat": "model/gltf-binary"
+      },
+
+      // audio is optional.
+      "audio": {
+        "@type":"AudioObject",
+        "contentUrl": "https://storage.googleapis.com/ia-testing/Review/bug_testing/070120_09-28/morpho/morpho.ogg",
+        "encodingFormat": "audio/ogg"
+      }
+    }
+  }
+}
+</script>
