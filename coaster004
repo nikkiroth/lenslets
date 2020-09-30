@@ -1,0 +1,46 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.googleapis.com",
+  "@type": "ARArtifact",
+  "arTarget": {
+    "@type": "ARImageTarget",
+    "name" : "Coaster Arrangements",
+    "description" : "Leah Rosenberg & Carissa Potter",
+    "image": "https://storage.googleapis.com/ia-testing/nikkiroth/AiR/coasters/coaster004.png"
+  },
+  "arContent": {
+    "@type": "ARNode",
+    "name": "A Google Artist in Residence Experience",
+    "embedUrl": "https://www.youtube.com/embed/sn--0dHiO54",
+    "image": "https://nikkiroth.github.io/lenslets/heroimage.jpg",
+    "url": "https://blog.bluebottlecoffee.com/posts/carissa-potter-leah-rosenberg",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Google Artist in Residence",
+      "logo": "https://nikkiroth.github.io/lenslets/googleairlogo.png"
+    },
+
+    // scale3d is optional.
+    "scale3d": 3,
+    
+    "arInitialAxisOrientation": "ARYAxisNormal",
+
+    "associatedMedia": {
+      "@type": "3DModel",
+      "name": "Flowers",
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://storage.googleapis.com/ia-testing/nikkiroth/AiR/coasters/flowers004.glb",
+        "encodingFormat": "model/gltf-binary"
+      },
+
+      // audio is optional.
+      "audio": {
+        "@type":"AudioObject",
+        "contentUrl": "https://storage.googleapis.com/ia-testing/Review/bug_testing/070120_09-28/morpho/morpho.ogg",
+        "encodingFormat": "audio/ogg"
+      }
+    }
+  }
+}
+</script>
