@@ -4,24 +4,29 @@
   "@type": "ARArtifact",
   "arTarget": {
     "@type": "ARImageTarget",
-    "name" : "Coaster Arrangements",
-    "description" : "Leah Rosenberg & Carissa Potter",
-    "image": "https://storage.googleapis.com/ia-testing/nikkiroth/AiR/coasters/coaster001.png"
+    "name" : "Leah Rosenberg & Carissa Potter",
+    "description" : "Leah Rosenberg & Carissa Potter AR experience",
+    "image": "https://nikkiroth.github.io/lenslets/coaster001.png"
   },
   "arContent": {
     "@type": "ARNode",
-    "name": "A Google Artist in Residence Experience",
-    "embedUrl": "https://www.youtube.com/embed/sn--0dHiO54",
-    "image": "https://nikkiroth.github.io/lenslets/heroimage.jpg",
-    "url": "https://blog.bluebottlecoffee.com/posts/carissa-potter-leah-rosenberg",
+    "name": "Corresponding AR to print and wooden artwork located in PR55 microkitchens.",
+    "image": "https://nikkiroth.github.io/lenslets/cardimage.jpg",
+    "url": "https://sites.google.com/corp/google.com/googleair/home",
     "publisher": {
       "@type": "Organization",
-      "name": "Google Artist in Residence",
-      "logo": "https://nikkiroth.github.io/lenslets/googleairlogo.png"
+      "name": "Artist in Residence",
+      "logo": "https://nikkiroth.github.io/lenslets/googlelogo.png"
     },
 
     // scale3d is optional.
-    "scale3d": 3,
+    "scale3d": 3.5,
+
+    "translate3d": {
+      "x": 0,
+      "y": 0,
+      "z": 0.3
+    },
     
     "arInitialAxisOrientation": "ARYAxisNormal",
 
@@ -30,15 +35,8 @@
       "name": "Flowers",
       "encoding": {
         "@type": "MediaObject",
-        "contentUrl": "https://storage.googleapis.com/ia-testing/nikkiroth/AiR/coasters/flowers001.glb",
+        "contentUrl": "https://nikkiroth.github.io/lenslets/flowers001_anim.glb",
         "encodingFormat": "model/gltf-binary"
-      },
-
-      // audio is optional.
-      "audio": {
-        "@type":"AudioObject",
-        "contentUrl": "https://storage.googleapis.com/ia-testing/Review/bug_testing/070120_09-28/morpho/morpho.ogg",
-        "encodingFormat": "audio/ogg"
       }
     }
   }
